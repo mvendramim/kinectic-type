@@ -18,10 +18,10 @@ margin: 0px;}
 
 #return  {
     
-    width: 70px;
+
     height: 70px;
     background-image: url(../images/back-icon.png);
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 200;
@@ -30,8 +30,11 @@ margin: 0px;}
 
 #back   {
     
+    width: auto;
     position: relative;
     bottom: 15px;
+    overflow: auto;
+    margin-left: 70px;
 }
 
 .navbar-nav {
@@ -46,6 +49,7 @@ margin: 0px;}
     
     width: 200px;
     height: 80px;
+    text-align: center;
     
    
     
@@ -57,15 +61,21 @@ h5 {
     color: #F5F5F5;
     font-family: 'Alegreya', serif;
     font-size: 14px;
+    font-style: italic;
     
 }
 
 #item-menu  {
     
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Roboto Slab', 'Rockwell', sans-Serif;
     font-weight: lighter;
+    font-style: normal;
+    float: none;
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
     
 }    
 
@@ -93,11 +103,11 @@ h5 {
 }
  #center-menu   {
   
-     width: 1024px;
      background-color: pink;
      margin-left: auto;
      margin-right: auto;
      background-color: pink;
+     float: left;
      
  }
 
