@@ -70,6 +70,13 @@ h3  {
     text-align: justify;
 }
 
+#poem   {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: left;
+}
 .content    {
     
     background-color: transparent;
@@ -90,6 +97,19 @@ h3  {
     margin-top: 50px;    
     
 }
+
+#content-poem  {
+    
+    background-color: #f5f5f5;
+    margin-left: 60px;
+    width 600px;
+    height: 1000px;
+    margin-top: 50px;    
+    
+}
+
+.navbar {background-color: green}
+.navbar-default {background-color: green}
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
     
