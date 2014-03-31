@@ -11,14 +11,18 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/stylesheet.css">
-     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100,200,400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
     <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/main.js" type="text/javascript">
+    </script>
 </head>
 
 <body>
-    
+
     <!--NAVBAR-->
 
     <div class="navbar-fixed">
@@ -33,43 +37,153 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a href="#">
-                        <div id="return"><div id="back"><h5>Back to the library's website</h5></div></div>
+                        <div id="return">
+                            <div id="back">
+                                <h5>Back to the library's website</h5>
+                            </div>
+                        </div>
                     </a>
                 </div>
 
-            
+
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    
-                        
-                    <ul class="nav navbar-nav navbar-center">   
+
+
+                    <ul class="nav navbar-nav navbar-center">
                         <li>
-                            <div class="nav-item"><h5 id="item-menu">The Author</h5></div>
+                            <div class="nav-item">
+                                <h5 id="item-menu">The Author</h5>
+                            </div>
                         </li>
                         <li>
-                            <div class="nav-item"><h5 id="item-menu">The Poem</h5></div>
+                            <div class="nav-item">
+                                <h5 id="item-menu">The Poem</h5>
+                            </div>
                         </li>
                         <li>
-                            <div class="nav-item"><h5 id="item-menu"><strong>The Animation</strong></h5></div>
+                            <div class="nav-item">
+                                <h5 id="item-menu">
+                                    <strong>The Animation</strong>
+                                </h5>
+                            </div>
                         </li>
                     </ul>
-                    </div>
+                </div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
         </nav>
 
     </div>
-    
-    <div class="content"><div id="content-home"><!-- Nav tabs -->
-<ul class="nav nav-tabs">
-  <li class="active"><a href="#home" data-toggle="tab">Biography</a></li>
-  <li><a href="#profile" data-toggle="tab">Work</a></li>
-</ul>
 
-<!-- Tab panes -->
-<div class="tab-content">
-  <div class="tab-pane active" id="home">Hey You</div>
-  <div class="tab-pane" id="profile">Don't Let Me Down</div>
-</div></div></div>
-    
+    <div id="logo" class="animated bounceInLeft"></div>
+
+    <div class="content">
+        <div id="content-home" class="animated pulse">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a href="#home" data-toggle="tab">Biography</a>
+                </li>
+                <li>
+                    <a href="#profile" data-toggle="tab">Work</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active animated fadeIn" id="home">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#" data-placement="top" data-toggle="tooltip" class="tip-top" data-original-title="Tooltip on top">Tooltip on top</a>
+                        </li>
+                        <li>
+                            <a href="#" data-placement="right" data-toggle="tooltip" class="tip-right" data-original-title="Tooltip on right">Tooltip on right</a>
+                        </li>
+                        <li>
+                            <a href="#" data-placement="bottom" data-toggle="tooltip" class="tip-bottom" data-original-title="Tooltip on bottom">Tooltip on bottom</a>
+                        </li>
+                        <li>
+                            <a href="#" data-placement="left" data-toggle="tooltip" class="tip-left" data-original-title="Tooltip on left">Tooltip on left</a>
+                        </li>
+                    </ul>
+                    <div id="picture"></div><div id="text"><!-- start slipsum code -->
+
+<h3>Nunc vehicula dapibus</h3>
+<p>Fusce a metus eu diam varius congue nec nec sapien. Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue. <a class="hint" id="pop" data-toggle="popover" data-content="Nullam pharetra accumsan sagittis?">Nunc convallis accumsan justo.</a> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra <a data-placement="right" data-toggle="tooltip" class="tip-right" data-original-title="This word means babababababababababa and was used by asldkadaj">sodales</a> ipsum gravida nec. Integer gravida nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et.  </p>
+
+<h3>Integer elementum massa</h3>
+<p>Etiam aliquam sem ac velit feugiat elementum. Nunc eu elit velit, nec vestibulum nibh. Curabitur ultrices, <a class="hint" id="pop" data-toggle="popover" data-content="And here's some amazing content. It's very engaging. right?">diam non ullamcorper blandit</a>, nunc lacus ornare nisi, egestas rutrum magna est id nunc. Pellentesque imperdiet malesuada quam, et rhoncus eros auctor eu. Nullam vehicula metus ac lacus rutrum nec fermentum urna congue. Vestibulum et risus at mi ultricies sagittis quis nec ligula. Suspendisse dignissim dignissim luctus. Duis ac dictum nibh. Etiam id massa magna. Morbi molestie posuere posuere.  </p>
+
+<!-- please do not remove this line -->
+
+<div style="display:none;">
+<a href="http://slipsum.com">lorem ipsum</a></div>
+
+<!-- end slipsum code -->
+</div><div id=small><p><strong>Born: </strong>Clive Staples Lewis<br>
+29 November 1898<br>
+Belfast, Ireland<br>
+<strong>Died:</strong> 22 November 1963 (aged 64)
+Oxford, England
+Occupation	Novelist, scholar, broadcaster
+Genres	Christian apologetics, fantasy, science fiction, children's literature
+Notable work(s)	The Chronicles of Narnia
+Mere Christianity
+The Allegory of Love
+The Screwtape Letters
+The Space Trilogy
+Till We Have Faces
+Surprised by Joy: The Shape of My Early Life
+Spouse(s)	Joy Davidman (m. 1956; wid. 1960)</div>
+                </div>
+                <div class="tab-pane animated fadeIn" id="profile">
+                    <a id="pop" href="#" class="btn btn-lg btn-danger" data-toggle="popover" data-content="And here's some amazing content. It's very engaging. right?">Popover</a> <div class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+                    <!-- Button trigger modal -->
+<p><a data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</a></p>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body">
+        Oxford, England
+Occupation	Novelist, scholar, broadcaster
+Genres	Christian apologetics, fantasy, science fiction, children's literature
+Notable work(s)	The Chronicles of Narnia
+      </div>
+
+    </div>
+  </div>
+</div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
