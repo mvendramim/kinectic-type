@@ -1,4 +1,15 @@
 $(document).ready(function(){
+$(document).ready(function() {
+  $('a.tips').cluetip();
+
+  $('#houdini').cluetip({
+    splitTitle: '|', // use the invoking element's title attribute to populate the clueTip...
+                     // ...and split the contents into separate divs where there is a "|"
+    sticky: true, closePosition: 'title', arrows: true
+  });
+});
+
+  
     $(".tip-top").tooltip({
         placement : 'top'
     });
