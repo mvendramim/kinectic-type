@@ -14,7 +14,48 @@ $(document).ready(function(){
     
     $('[data-toggle="popover"]').popover({
     trigger: 'click',
-        'placement': 'top'
+        'placement': 'right'
 });
+    
 });
+
+$(function() {
+  $('a[href*=#home]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top -200
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+$(function() {
+  $('a[href*=#thepoem]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top -200
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+$(function(){
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 0,
+            });
+        });
+
+
+
 
