@@ -17,6 +17,8 @@ $(document).ready(function(){
         'placement': 'right'
 });
     
+    
+    
 });
 
 $(function() {
