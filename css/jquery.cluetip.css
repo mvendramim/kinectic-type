@@ -177,7 +177,14 @@ div.clue-bottom-jtip .cluetip-arrows {
   -moz-border-radius: 6px;
   border-radius: 6px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #005493;
+    font-family: 'Alegreya', serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 300px;
+    
+}
 }
 
 .cluetip-rounded .cluetip-outer {
@@ -188,7 +195,7 @@ div.clue-bottom-jtip .cluetip-arrows {
 }
 
 .cluetip-rounded  .cluetip-arrows {
-  border-color: #ccc;
+  border-color: #005493;
 }
 
 /* need to be more specific here to override ThemeRoller defaults */

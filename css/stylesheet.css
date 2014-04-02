@@ -21,12 +21,16 @@ p {
 br {
     line-height: 1.5em;
 }
+
+h2  {font-family: 'alegreya sc', serif;}
 h3 {
+    font-size: 20px;
     font-family: 'Alegreya SC', serif;
     margin-left: 10px;
 }
 
-h4  {text-align: left;}
+
+h4  {text-align: left;font-size: 13px;}
 
 .container-hype {
     width: 1024px;
@@ -111,6 +115,24 @@ h4  {text-align: left;}
     bottom: 220px;
     padding-bottom: 10px;
 }
+
+#content-more {
+    background-color: #f5f5f5;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    position: relative;
+    bottom: 150px;
+}
+
+#context {width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: left;}
 .navbar {
     background-color: green
 }
@@ -213,24 +235,41 @@ h4  {text-align: left;}
         
 }
 
-.teste   {
+#drysavages   {
     
-    background: lightblue;
+    background-image: url("http://2.bp.blogspot.com/_Kw64uJ7yE8I/TOGOXvjxgrI/AAAAAAAAADA/dmKYhzQAXqk/s1600/The-Dry-Salvages.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
-#cluetip-waitimage {
-      width: 43px;
-      height: 11px;
-      position: absolute;
-      background-image: url(wait.gif);
-    }
+#krishna   {
+    
+    background-image: url("http://www.bhaktiyoga.com/files/images/krishna342x360.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.cluetip-title  {
+    height: 38px;
+    background-color: #005493;;
+}    
 
 
 
 
-
-
-
+#tip{font-size: 16px;}
 
 
 
