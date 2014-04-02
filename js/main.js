@@ -5,9 +5,11 @@ $(document).ready(function() {
   $('#houdini').cluetip({
     splitTitle: '|', // use the invoking element's title attribute to populate the clueTip...
                      // ...and split the contents into separate divs where there is a "|"
-    sticky: true, closePosition: 'title', arrows: true
+    sticky: true, closePosition: 'title', cluetipClass: 'rounded',  dropShadow: false, arrows: true, activation: 'click', closeText: '<img src="http://formacao.santillana.pt/ez/js/modules/Santillana/cursos2/images/close-icon.png"></img>',fx: {open: 'fadeIn', openSpeed:  'slow'},
   });
 });
+    
+    
 
   
     $(".tip-top").tooltip({
